@@ -1,0 +1,69 @@
+{
+  "id": 35,
+  "name": "Level 35",
+  "rows": 8,
+  "cols": 8,
+  "difficulty": "hard",
+  "arrows": [
+    {
+      "row": 6,
+      "col": 0,
+      "dir": "DOWN"
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "dir": "LEFT"
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "dir": "UP"
+    },
+    {
+      "row": 2,
+      "col": 7,
+      "dir": "DOWN"
+    },
+    {
+      "row": 5,
+      "col": 0,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "dir": "LEFT"
+    },
+    {
+      "row": 2,
+      "col": 6,
+      "dir": "UP"
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "dir": "UP"
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "dir": "LEFT"
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 4,
+      "col": 0,
+      "dir": "DOWN"
+    }
+  ]
+}

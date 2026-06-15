@@ -1,0 +1,59 @@
+{
+  "id": 36,
+  "name": "Level 36",
+  "rows": 8,
+  "cols": 8,
+  "difficulty": "hard",
+  "arrows": [
+    {
+      "row": 0,
+      "col": 4,
+      "dir": "DOWN"
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "dir": "DOWN"
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "dir": "UP"
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "dir": "LEFT"
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "dir": "LEFT"
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "dir": "LEFT"
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "dir": "UP"
+    },
+    {
+      "row": 5,
+      "col": 6,
+      "dir": "RIGHT"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": 19,
+  "name": "Level 19",
+  "rows": 6,
+  "cols": 6,
+  "difficulty": "medium",
+  "arrows": [
+    {
+      "row": 0,
+      "col": 3,
+      "dir": "UP"
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "dir": "DOWN"
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "dir": "UP"
+    },
+    {
+      "row": 5,
+      "col": 0,
+      "dir": "DOWN"
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "dir": "DOWN"
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "dir": "LEFT"
+    },
+    {
+      "row": 3,
+      "col": 0,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "dir": "DOWN"
+    }
+  ]
+}

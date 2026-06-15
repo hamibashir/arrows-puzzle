@@ -1,0 +1,15 @@
+{
+  "id": 3,
+  "name": "Corner Trap",
+  "rows": 5,
+  "cols": 5,
+  "difficulty": "medium",
+  "arrows": [
+    { "row": 0, "col": 0, "dir": "UP" },
+    { "row": 0, "col": 1, "dir": "LEFT" },
+    { "row": 1, "col": 0, "dir": "DOWN" },
+    { "row": 2, "col": 2, "dir": "RIGHT" },
+    { "row": 3, "col": 3, "dir": "UP" },
+    { "row": 4, "col": 4, "dir": "LEFT" }
+  ]
+}

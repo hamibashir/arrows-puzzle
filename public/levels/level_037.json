@@ -1,0 +1,64 @@
+{
+  "id": 37,
+  "name": "Level 37",
+  "rows": 9,
+  "cols": 9,
+  "difficulty": "hard",
+  "arrows": [
+    {
+      "row": 4,
+      "col": 1,
+      "dir": "DOWN"
+    },
+    {
+      "row": 2,
+      "col": 7,
+      "dir": "UP"
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "dir": "UP"
+    },
+    {
+      "row": 4,
+      "col": 6,
+      "dir": "UP"
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "dir": "UP"
+    },
+    {
+      "row": 8,
+      "col": 6,
+      "dir": "DOWN"
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "dir": "DOWN"
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "dir": "DOWN"
+    },
+    {
+      "row": 4,
+      "col": 7,
+      "dir": "LEFT"
+    },
+    {
+      "row": 5,
+      "col": 0,
+      "dir": "UP"
+    }
+  ]
+}

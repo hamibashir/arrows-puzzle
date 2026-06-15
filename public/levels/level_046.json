@@ -1,0 +1,99 @@
+{
+  "id": 46,
+  "name": "Level 46",
+  "rows": 12,
+  "cols": 12,
+  "difficulty": "expert",
+  "arrows": [
+    {
+      "row": 11,
+      "col": 4,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 8,
+      "col": 5,
+      "dir": "UP"
+    },
+    {
+      "row": 10,
+      "col": 4,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "dir": "DOWN"
+    },
+    {
+      "row": 9,
+      "col": 9,
+      "dir": "UP"
+    },
+    {
+      "row": 8,
+      "col": 0,
+      "dir": "DOWN"
+    },
+    {
+      "row": 2,
+      "col": 8,
+      "dir": "LEFT"
+    },
+    {
+      "row": 9,
+      "col": 11,
+      "dir": "UP"
+    },
+    {
+      "row": 9,
+      "col": 7,
+      "dir": "UP"
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "dir": "DOWN"
+    },
+    {
+      "row": 0,
+      "col": 11,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 10,
+      "col": 5,
+      "dir": "UP"
+    },
+    {
+      "row": 9,
+      "col": 6,
+      "dir": "UP"
+    },
+    {
+      "row": 5,
+      "col": 7,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 8,
+      "col": 7,
+      "dir": "UP"
+    },
+    {
+      "row": 0,
+      "col": 9,
+      "dir": "LEFT"
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "dir": "RIGHT"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": 10,
+  "name": "Level 10",
+  "rows": 5,
+  "cols": 5,
+  "difficulty": "easy",
+  "arrows": [
+    {
+      "row": 0,
+      "col": 2,
+      "dir": "UP"
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "dir": "UP"
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "dir": "LEFT"
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "dir": "UP"
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "dir": "DOWN"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": 1,
+  "name": "First Steps",
+  "rows": 4,
+  "cols": 4,
+  "difficulty": "easy",
+  "arrows": [
+    { "row": 0, "col": 3, "dir": "LEFT" },
+    { "row": 1, "col": 0, "dir": "RIGHT" },
+    { "row": 2, "col": 3, "dir": "UP" },
+    { "row": 3, "col": 0, "dir": "DOWN" }
+  ]
+}

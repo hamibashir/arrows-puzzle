@@ -1,0 +1,59 @@
+{
+  "id": 21,
+  "name": "Level 21",
+  "rows": 6,
+  "cols": 6,
+  "difficulty": "medium",
+  "arrows": [
+    {
+      "row": 2,
+      "col": 2,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "dir": "DOWN"
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "dir": "DOWN"
+    },
+    {
+      "row": 0,
+      "col": 0,
+      "dir": "LEFT"
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "dir": "DOWN"
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "dir": "DOWN"
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "dir": "DOWN"
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "dir": "DOWN"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": 9,
+  "name": "Level 09",
+  "rows": 4,
+  "cols": 4,
+  "difficulty": "easy",
+  "arrows": [
+    {
+      "row": 3,
+      "col": 0,
+      "dir": "DOWN"
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "dir": "UP"
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "dir": "LEFT"
+    }
+  ]
+}

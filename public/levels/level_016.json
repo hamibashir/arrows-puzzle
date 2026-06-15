@@ -1,0 +1,49 @@
+{
+  "id": 16,
+  "name": "Level 16",
+  "rows": 7,
+  "cols": 7,
+  "difficulty": "medium",
+  "arrows": [
+    {
+      "row": 0,
+      "col": 2,
+      "dir": "LEFT"
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "dir": "UP"
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "dir": "DOWN"
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "dir": "DOWN"
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "dir": "DOWN"
+    },
+    {
+      "row": 5,
+      "col": 0,
+      "dir": "LEFT"
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "dir": "DOWN"
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "dir": "UP"
+    }
+  ]
+}

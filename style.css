@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+  background: #FAFAFC;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  contain: layout size;
+  overflow: hidden;
+}
+
+#gameCanvas {
+  display: block;
+  touch-action: none;
+  max-width: 100%;
+  max-height: 100%;
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+#ui-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  contain: layout;
+}
+
+#ui-overlay > * {
+  pointer-events: auto;
+}
+
+/* Fast tap response on interactive elements */
+button, .action-button, .level-button, .hud-button, .toggle-switch {
+  touch-action: manipulation;
+}
+
+/* Base screen layout shared by all UI screens */
+.screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 100;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}

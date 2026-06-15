@@ -1,0 +1,34 @@
+{
+  "id": 7,
+  "name": "Level 07",
+  "rows": 5,
+  "cols": 5,
+  "difficulty": "easy",
+  "arrows": [
+    {
+      "row": 3,
+      "col": 1,
+      "dir": "DOWN"
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "dir": "DOWN"
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "dir": "DOWN"
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "dir": "LEFT"
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "dir": "DOWN"
+    }
+  ]
+}

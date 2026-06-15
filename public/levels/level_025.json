@@ -1,0 +1,39 @@
+{
+  "id": 25,
+  "name": "Level 25",
+  "rows": 7,
+  "cols": 7,
+  "difficulty": "medium",
+  "arrows": [
+    {
+      "row": 0,
+      "col": 6,
+      "dir": "LEFT"
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "dir": "LEFT"
+    },
+    {
+      "row": 0,
+      "col": 0,
+      "dir": "UP"
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "dir": "LEFT"
+    },
+    {
+      "row": 6,
+      "col": 0,
+      "dir": "UP"
+    }
+  ]
+}

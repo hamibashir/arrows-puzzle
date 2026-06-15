@@ -1,0 +1,34 @@
+{
+  "id": 8,
+  "name": "Level 08",
+  "rows": 5,
+  "cols": 5,
+  "difficulty": "easy",
+  "arrows": [
+    {
+      "row": 2,
+      "col": 3,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "dir": "LEFT"
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "dir": "LEFT"
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "dir": "UP"
+    }
+  ]
+}

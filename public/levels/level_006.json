@@ -1,0 +1,39 @@
+{
+  "id": 6,
+  "name": "Level 06",
+  "rows": 5,
+  "cols": 5,
+  "difficulty": "easy",
+  "arrows": [
+    {
+      "row": 4,
+      "col": 3,
+      "dir": "LEFT"
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "dir": "LEFT"
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "dir": "DOWN"
+    },
+    {
+      "row": 4,
+      "col": 0,
+      "dir": "LEFT"
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "dir": "DOWN"
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "dir": "RIGHT"
+    }
+  ]
+}

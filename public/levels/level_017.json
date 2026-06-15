@@ -1,0 +1,39 @@
+{
+  "id": 17,
+  "name": "Level 17",
+  "rows": 7,
+  "cols": 7,
+  "difficulty": "medium",
+  "arrows": [
+    {
+      "row": 6,
+      "col": 0,
+      "dir": "UP"
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "dir": "UP"
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "dir": "DOWN"
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "dir": "UP"
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "dir": "RIGHT"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": 41,
+  "name": "Level 41",
+  "rows": 12,
+  "cols": 12,
+  "difficulty": "expert",
+  "arrows": [
+    {
+      "row": 8,
+      "col": 0,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 5,
+      "col": 11,
+      "dir": "UP"
+    },
+    {
+      "row": 9,
+      "col": 8,
+      "dir": "DOWN"
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "dir": "UP"
+    },
+    {
+      "row": 8,
+      "col": 4,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 6,
+      "col": 0,
+      "dir": "LEFT"
+    },
+    {
+      "row": 11,
+      "col": 1,
+      "dir": "LEFT"
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 3,
+      "col": 7,
+      "dir": "DOWN"
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "dir": "UP"
+    },
+    {
+      "row": 6,
+      "col": 9,
+      "dir": "DOWN"
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "dir": "DOWN"
+    },
+    {
+      "row": 10,
+      "col": 9,
+      "dir": "LEFT"
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "dir": "UP"
+    },
+    {
+      "row": 0,
+      "col": 10,
+      "dir": "LEFT"
+    }
+  ]
+}

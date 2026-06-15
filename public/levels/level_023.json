@@ -1,0 +1,59 @@
+{
+  "id": 23,
+  "name": "Level 23",
+  "rows": 7,
+  "cols": 7,
+  "difficulty": "medium",
+  "arrows": [
+    {
+      "row": 1,
+      "col": 4,
+      "dir": "DOWN"
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 3,
+      "col": 6,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "dir": "UP"
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "dir": "DOWN"
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "dir": "LEFT"
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "dir": "LEFT"
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "dir": "DOWN"
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "dir": "UP"
+    }
+  ]
+}

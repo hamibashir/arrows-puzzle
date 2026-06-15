@@ -1,0 +1,79 @@
+{
+  "id": 38,
+  "name": "Level 38",
+  "rows": 9,
+  "cols": 9,
+  "difficulty": "hard",
+  "arrows": [
+    {
+      "row": 8,
+      "col": 6,
+      "dir": "UP"
+    },
+    {
+      "row": 7,
+      "col": 6,
+      "dir": "LEFT"
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "dir": "UP"
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "dir": "DOWN"
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "dir": "LEFT"
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "dir": "LEFT"
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "dir": "LEFT"
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "dir": "LEFT"
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "dir": "DOWN"
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "dir": "LEFT"
+    },
+    {
+      "row": 5,
+      "col": 7,
+      "dir": "LEFT"
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "dir": "RIGHT"
+    }
+  ]
+}

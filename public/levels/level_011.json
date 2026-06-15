@@ -1,0 +1,39 @@
+{
+  "id": 11,
+  "name": "Level 11",
+  "rows": 6,
+  "cols": 6,
+  "difficulty": "medium",
+  "arrows": [
+    {
+      "row": 1,
+      "col": 4,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "dir": "UP"
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "dir": "UP"
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "dir": "LEFT"
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "dir": "LEFT"
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "dir": "UP"
+    }
+  ]
+}

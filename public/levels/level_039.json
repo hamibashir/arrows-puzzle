@@ -1,0 +1,59 @@
+{
+  "id": 39,
+  "name": "Level 39",
+  "rows": 8,
+  "cols": 8,
+  "difficulty": "hard",
+  "arrows": [
+    {
+      "row": 2,
+      "col": 5,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "dir": "UP"
+    },
+    {
+      "row": 6,
+      "col": 5,
+      "dir": "DOWN"
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "dir": "UP"
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "dir": "DOWN"
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "dir": "UP"
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "dir": "LEFT"
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "dir": "DOWN"
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "dir": "RIGHT"
+    }
+  ]
+}

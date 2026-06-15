@@ -1,0 +1,84 @@
+{
+  "id": 29,
+  "name": "Level 29",
+  "rows": 9,
+  "cols": 9,
+  "difficulty": "hard",
+  "arrows": [
+    {
+      "row": 5,
+      "col": 5,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 2,
+      "col": 8,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 4,
+      "col": 0,
+      "dir": "DOWN"
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "dir": "LEFT"
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "dir": "LEFT"
+    },
+    {
+      "row": 8,
+      "col": 6,
+      "dir": "UP"
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "dir": "DOWN"
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "dir": "LEFT"
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "dir": "LEFT"
+    },
+    {
+      "row": 8,
+      "col": 1,
+      "dir": "LEFT"
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "dir": "DOWN"
+    },
+    {
+      "row": 8,
+      "col": 7,
+      "dir": "DOWN"
+    },
+    {
+      "row": 4,
+      "col": 8,
+      "dir": "LEFT"
+    },
+    {
+      "row": 7,
+      "col": 5,
+      "dir": "DOWN"
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "dir": "LEFT"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": 15,
+  "name": "Level 15",
+  "rows": 7,
+  "cols": 7,
+  "difficulty": "medium",
+  "arrows": [
+    {
+      "row": 4,
+      "col": 2,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "dir": "UP"
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "dir": "DOWN"
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "dir": "LEFT"
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "dir": "LEFT"
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "dir": "DOWN"
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "dir": "LEFT"
+    }
+  ]
+}

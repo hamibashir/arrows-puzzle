@@ -1,0 +1,79 @@
+{
+  "id": 26,
+  "name": "Level 26",
+  "rows": 9,
+  "cols": 9,
+  "difficulty": "hard",
+  "arrows": [
+    {
+      "row": 2,
+      "col": 2,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "dir": "UP"
+    },
+    {
+      "row": 7,
+      "col": 4,
+      "dir": "UP"
+    },
+    {
+      "row": 8,
+      "col": 6,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "dir": "DOWN"
+    },
+    {
+      "row": 4,
+      "col": 0,
+      "dir": "DOWN"
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "dir": "UP"
+    },
+    {
+      "row": 6,
+      "col": 5,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 8,
+      "col": 8,
+      "dir": "DOWN"
+    },
+    {
+      "row": 3,
+      "col": 7,
+      "dir": "UP"
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "dir": "DOWN"
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "dir": "RIGHT"
+    }
+  ]
+}

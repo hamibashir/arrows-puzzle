@@ -1,0 +1,49 @@
+{
+  "id": 24,
+  "name": "Level 24",
+  "rows": 7,
+  "cols": 7,
+  "difficulty": "medium",
+  "arrows": [
+    {
+      "row": 3,
+      "col": 2,
+      "dir": "UP"
+    },
+    {
+      "row": 3,
+      "col": 0,
+      "dir": "UP"
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "dir": "RIGHT"
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "dir": "LEFT"
+    },
+    {
+      "row": 6,
+      "col": 5,
+      "dir": "UP"
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "dir": "LEFT"
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "dir": "DOWN"
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "dir": "RIGHT"
+    }
+  ]
+}
