@@ -1,3 +1,4 @@
+import { App as CapacitorApp } from '@capacitor/app';
 import { CONSTANTS } from './core/Constants.js';
 import { Grid } from './entities/Grid.js';
 import { Arrow } from './entities/Arrow.js';
@@ -84,6 +85,79 @@ class App {
     }
   }
 
+  handleHardwareBackButton() {
+    // If a confirmation modal is already open, pressing back should dismiss it
+    const existingModal = document.querySelector('.modal-overlay.confirm-modal');
+    if (existingModal) {
+      if (this.audioManager) this.audioManager.playButtonTap();
+      existingModal.classList.remove('visible');
+      setTimeout(() => existingModal.remove(), 300);
+      return;
+    }
+
+    if (this.currentScreen === CONSTANTS.SCREENS.GAME) {
+      this.showConfirmationModal('Exit Game?', 'Are you sure you want to leave this level?', 'Stay', 'Exit', () => {
+        this.sceneManager.switchTo(CONSTANTS.SCREENS.HOME);
+      });
+    } else if (this.currentScreen === CONSTANTS.SCREENS.HOME) {
+      this.showConfirmationModal('Exit App?', 'Are you sure you want to exit?', 'Cancel', 'Exit', () => {
+        CapacitorApp.exitApp();
+      });
+    } else {
+      // For other screens (Settings, Level Select, etc.) just go back to Home
+      this.sceneManager.switchTo(CONSTANTS.SCREENS.HOME);
+    }
+  }
+
+  showConfirmationModal(title, message, cancelText, confirmText, onConfirm) {
+    const overlay = document.createElement('div');
+    overlay.className = 'modal-overlay confirm-modal';
+    overlay.style.zIndex = '2000';
+    
+    const modal = document.createElement('div');
+    modal.className = 'modal';
+    
+    const h2 = document.createElement('h2');
+    h2.textContent = title;
+    h2.style.marginBottom = '10px';
+    
+    const p = document.createElement('p');
+    p.textContent = message;
+    p.style.marginBottom = '20px';
+    
+    const btnConfirm = document.createElement('button');
+    btnConfirm.textContent = confirmText;
+    btnConfirm.style.marginBottom = '10px';
+    btnConfirm.addEventListener('click', () => {
+      if (this.audioManager) this.audioManager.playButtonTap();
+      overlay.classList.remove('visible');
+      setTimeout(() => {
+        overlay.remove();
+        onConfirm();
+      }, 300);
+    });
+    
+    const btnCancel = document.createElement('button');
+    btnCancel.className = 'secondary';
+    btnCancel.textContent = cancelText;
+    btnCancel.addEventListener('click', () => {
+      if (this.audioManager) this.audioManager.playButtonTap();
+      overlay.classList.remove('visible');
+      setTimeout(() => overlay.remove(), 300);
+    });
+    
+    modal.appendChild(h2);
+    modal.appendChild(p);
+    modal.appendChild(btnConfirm);
+    modal.appendChild(btnCancel);
+    overlay.appendChild(modal);
+    document.body.appendChild(overlay);
+    
+    // Force reflow and add visible class for transition
+    overlay.offsetHeight;
+    overlay.classList.add('visible');
+  }
+
   async init() {
     this.levelManager = new LevelManager();
     await this.levelManager.init();
@@ -96,6 +170,11 @@ class App {
     this._wasAnimating = false;
 
     this.setupScenes();
+    
+    CapacitorApp.addListener('backButton', () => {
+      this.handleHardwareBackButton();
+    });
+
     this.sceneManager.switchTo(CONSTANTS.SCREENS.SPLASH);
   }
 
@@ -224,7 +303,7 @@ class App {
     this.gameHUD = createGameHUD({
       onBack: () => {
         this.audioManager.playButtonTap();
-        this.sceneManager.switchTo(CONSTANTS.SCREENS.HOME);
+        this.handleHardwareBackButton();
       },
       onHint: () => this.showHint(),
       onUndo: () => this.undoMove(),
@@ -351,6 +430,7 @@ class App {
   restartLevel() {
     this.audioManager.playButtonTap();
     this.gameState.restart(this.originalGrid);
+    this.grid = this.gameState.grid; // FIX: Sync main.js grid reference with the new restarted grid
     hideModals(this.gameHUD);
     const levelTitle = this.currentLevelNumber === 'casual' ? `Casual ${this.currentCasualSize}x${this.currentCasualSize}` : this.currentLevelNumber;
     updateHUD(this.gameHUD, levelTitle, this.gameState.hintsRemaining, this.gameState.score);

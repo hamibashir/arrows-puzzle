@@ -12,7 +12,6 @@ export class Game {
 
   init() {
     // TODO: Wire up managers in Prompt 2-8
-    console.log('Game initialized');
   }
 
   start() {

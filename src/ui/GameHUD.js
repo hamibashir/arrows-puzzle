@@ -93,35 +93,6 @@ export function createGameHUD(callbacks, levelNumber, hintsRemaining, moves = 0)
       .action-button:active { transform: scale(0.95); }
       .action-button.primary { background: #5D71F6; color: white; border: none; box-shadow: 0 4px 12px rgba(93, 113, 246, 0.3); }
       .action-button.primary:hover { background: #4b5be0; box-shadow: 0 6px 15px rgba(93, 113, 246, 0.4); }
-
-      .modal-overlay {
-        position: fixed; inset: 0; background: rgba(255,255,255,0.7);
-        backdrop-filter: blur(8px);
-        -webkit-backdrop-filter: blur(8px);
-        display: none; align-items: center; justify-content: center;
-        z-index: 1000; opacity: 0; transition: opacity 0.3s ease; pointer-events: auto;
-      }
-      .modal-overlay.visible { display: flex; opacity: 1; }
-      .modal {
-        background: white; padding: 40px 32px; border-radius: 24px; text-align: center;
-        max-width: 320px; width: 85%; box-shadow: 0 20px 60px rgba(0,0,0,0.1);
-        transform: scale(0.9); transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      }
-      .modal-overlay.visible .modal { transform: scale(1); }
-      .modal h2 { margin: 0 0 12px 0; font-size: 28px; color: #1A1A1A; font-weight: 800; }
-      .modal p { margin: 0 0 24px 0; color: #666; font-size: 16px; }
-      .modal .stars { font-size: 40px; margin: 16px 0 24px; letter-spacing: 4px; color: #FFD700; text-shadow: 0 2px 10px rgba(255, 215, 0, 0.3); }
-      .modal button {
-        background: #5D71F6; color: white; border: none; padding: 14px 32px;
-        border-radius: 12px; font-weight: bold; cursor: pointer; font-size: 16px;
-        font-family: inherit; -webkit-tap-highlight-color: transparent;
-        margin: 6px; min-width: 120px; transition: transform 0.15s ease, box-shadow 0.15s ease;
-        box-shadow: 0 4px 10px rgba(93, 113, 246, 0.2);
-      }
-      .modal button:hover { transform: translateY(-2px); box-shadow: 0 6px 15px rgba(93, 113, 246, 0.3); }
-      .modal button:active { transform: scale(0.95); }
-      .modal button.secondary { background: transparent; color: #5D71F6; border: 2px solid #5D71F6; box-shadow: none; }
-      .modal button.secondary:hover { background: rgba(93, 113, 246, 0.05); }
     </style>
 
     <div class="hud-top">

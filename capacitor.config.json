@@ -1,5 +1,5 @@
 {
-  "appId": "com.arrowspuzzle.game",
+  "appId": "com.apexbytelabs.arrows",
   "appName": "Arrows Puzzle",
   "webDir": "dist",
   "bundledWebRuntime": false,
